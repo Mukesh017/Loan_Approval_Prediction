@@ -22,58 +22,80 @@ Identify the strongest predictors of loan approval
 🛠️ Technologies Used
 
 Python
+
 Pandas, NumPy
+
 Matplotlib, Seaborn
+
 Scikit-Learn
+
 Jupyter Notebook
 
 🔍 Workflow Overview
+
 1. Data Loading
+   
 Import raw dataset, inspect schema, handle inconsistencies.
 
 2. Data Cleaning
+   
 Handle missing values, duplicates, inconsistent formats, and outliers.
 
 3. Exploratory Data Analysis (EDA)
+   
 Univariate, bivariate, distribution analysis, and correlations.
 
 4. Feature Engineering
+   
 Encoding, scaling, new features, and data transformation.
 
 5. Model Training
+   
 Train Random Forest classifier and compare with baseline models.
 
 6. Model Evaluation
 
 Evaluate using:
+
 Confusion Matrix
+
 Classification Report
+
 ROC Curve
+
 Feature Importance
 
 📈 Results
 
 Developed a reliable model for loan approval prediction
+
 Identified key factors influencing predictions
+
 Built a modular pipeline with clean, reusable notebooks
 
 🧩 How to Run This Project
 
 1. Clone the repository
+   
 git clone https://github.com/yourusername/Loan_Approval_Prediction.git
 cd Loan_Approval_Prediction
 
 2. Install dependencies
+   
 pip install -r requirements.txt
 
 3. Open Jupyter Notebook
+
 jupyter notebook
 
-4. Run notebooks in order
+4. Run notebook in order
 
 📬 Future Improvements
 
 Add XGBoost and LightGBM models
+
 Deploy model with FastAPI/Flask
+
 Add a UI for loan prediction
+
 Automate pipeline using MLflow or Airflow
