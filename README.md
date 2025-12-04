@@ -8,10 +8,15 @@ This project builds a machine-learning system that predicts whether a loan appli
 📊 Objectives
 
 Prepare and clean raw loan data
+
 Explore the dataset visually and statistically
+
 Engineer meaningful features for stronger model performance
+
 Train ML models (Random Forest + comparisons)
+
 Evaluate with accuracy, precision, recall, F1-score, ROC-AUC
+
 Identify the strongest predictors of loan approval
 
 🛠️ Technologies Used
